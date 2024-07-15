@@ -17,8 +17,8 @@
   --body-color: hsl(34, 100%, 92%);
   --body-color-alt: hsl(34, 100%, 88%);
   --container-color: hsl(34, 100%, 96%);
-  --shadow-small-img: drop-shadow(0 4px 16px hsla(22, 100%, 8%, .2));
-  --shadow-big-img: drop-shadow(0 8px 24px hsla(22, 100%, 8%, .2));
+  --shadow-small-img: drop-shadow(0 4px 16px hsla(22, 100%, 8%, 0.2));
+  --shadow-big-img: drop-shadow(0 8px 24px hsla(22, 100%, 8%, 0.2));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -28,8 +28,8 @@
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
 
   /*========== Font weight ==========*/
   --font-regular: 400;
@@ -49,7 +49,7 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
+    --small-font-size: 0.875rem;
   }
 }
 
@@ -71,7 +71,10 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--title-color);
   font-family: var(--second-font);
   font-weight: var(--font-regular);
@@ -117,55 +120,55 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow 0.4s;
+}
 
+.nav {
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Navigation for mobile devices */
 
-
 /* Show menu */
-
 
 /* Add shadow header */
 
-
 /* Active link */
-
 
 /*=============== HOME ===============*/
 
-
 /*=============== BUTTON ===============*/
-
 
 /*=============== RECIPE ===============*/
 
-
 /*=============== POPULAR ===============*/
-
 
 /*=============== DELIVERY ===============*/
 
-
 /*=============== CONTACT ===============*/
-
 
 /*=============== FOOTER ===============*/
 
-
 /*=============== SCROLL BAR ===============*/
-
 
 /*=============== SCROLL UP ===============*/
 
-
 /* Show Scroll Up */
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-
 /* For medium devices */
-
 
 /* For large devices */
