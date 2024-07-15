@@ -163,8 +163,48 @@ img {
   color: var(--title-color);
   cursor: pointer;
 } /* Navigation for mobile devices */
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    background-color: var(--body-color);
+    width: 100%;
+    padding-block: 4.5rem 3.5rem;
+    box-shadow: 0 4px 16px hsla(22, 100%, 8%, 0.2);
+    transition: top 0.4s;
+  }
+}
 
-/* Show menu */
+.nav__list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.nav__link {
+  position: relative;
+  color: var(--title-color);
+  font-family: var(--second-color);
+}
+
+.nav__link::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  background-color: var(--first-color);
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  transition: width 0.3s;
+}
+
+.nav__link:hover::after {
+  width: 60%;
+}
+
+.nav__close/* Show menu */
 
 /* Add shadow header */
 
@@ -195,4 +235,4 @@ img {
 
 /* For medium devices */
 
-/* For large devices */
+/* For large devices */;
