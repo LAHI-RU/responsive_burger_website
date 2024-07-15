@@ -211,6 +211,33 @@ img {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home__container {
+  padding-block: 3rem 2rem;
+  justify-content: center;
+  row-gap: 3.5rem;
+}
+
+.home__data {
+  position: relative;
+  text-align: center;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__description {
+  margin-bottom: 2.5rem;
+}
+
+.home__sticker {
+  width: 40px;
+  rotate: 15deg;
+  position: absolute;
+  bottom: 2rem;
+  opacity: 0.5;
+}
 
 /*=============== BUTTON ===============*/
 
@@ -235,4 +262,4 @@ img {
 
 /* For medium devices */
 
-/* For large devices */;
+/* For large devices */
