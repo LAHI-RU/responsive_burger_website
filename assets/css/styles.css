@@ -363,6 +363,14 @@ img {
 }
 
 .recipe__box {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: var(--first-color);
+  border: 3px solid var(--container-color);
+  border-radius: 0.75rem;
+  display: grid;
+  place-items: center;
 }
 
 /*=============== POPULAR ===============*/
