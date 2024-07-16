@@ -327,6 +327,21 @@ img {
   box-shadow: 0 8px 24px hsla(22, 100%, 8%, 0.2);
 }
 /*=============== RECIPE ===============*/
+.recipe {
+  overflow: hidden;
+}
+
+.recipe__container {
+  grid-template-columns: 0.5fr 1fr;
+  column-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.recipe__image {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
 
 /*=============== POPULAR ===============*/
 
