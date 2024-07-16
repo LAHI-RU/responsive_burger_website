@@ -239,8 +239,62 @@ img {
   opacity: 0.5;
 }
 
-/*=============== BUTTON ===============*/
+.home__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
 
+.home__ingredient {
+  width: 60px;
+  filter: var(--shadow-small-img);
+  position: absolute;
+  z-index: 2;
+}
+
+.home__burger,
+.home__dish {
+  filter: var(--shadow-big-img);
+}
+
+.home__burger {
+  width: 280px;
+  z-index: 2;
+}
+
+.home__dish {
+  max-width: initial;
+  width: 320px;
+  position: absolute;
+  bottom: -2.5rem;
+}
+
+.home__potato-1 {
+  left: -1rem;
+  top: 0.75rem;
+}
+
+.home__potato-2 {
+  right: -0.75rem;
+  bottom: -2rem;
+  rotate: 90deg;
+}
+
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-flex;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  padding: 1rem 1.5rem;
+  font-family: var(--second-font);
+  border-radius: 4rem;
+  transition: box-shadow 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 8px 24px hsla(22, 100%, 8%, 0.2);
+}
 /*=============== RECIPE ===============*/
 
 /*=============== POPULAR ===============*/
