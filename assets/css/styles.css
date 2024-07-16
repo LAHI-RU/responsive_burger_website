@@ -343,6 +343,28 @@ img {
   place-items: center;
 }
 
+.recipe__img {
+  position: absolute;
+  max-width: initial;
+  width: 200px;
+  left: -6rem;
+  filter: var(--shadow-big-img);
+}
+
+.recipe__data {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.recipe__card {
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.recipe__box {
+}
+
 /*=============== POPULAR ===============*/
 
 /*=============== DELIVERY ===============*/
