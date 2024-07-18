@@ -432,6 +432,21 @@ img {
   font-size: var(--h2-font-size);
 }
 
+.popular__button {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--second-color);
+  color: var(--white-color);
+  padding: 6px;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  display: inline-flex;
+  cursor: pointer;
+}
+
 /*=============== DELIVERY ===============*/
 
 /*=============== CONTACT ===============*/
