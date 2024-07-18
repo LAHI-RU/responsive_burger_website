@@ -421,6 +421,17 @@ img {
   transition: transform 0.4s;
 }
 
+.popular__title {
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.75rem;
+}
+
+.popular__price {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-size: var(--h2-font-size);
+}
+
 /*=============== DELIVERY ===============*/
 
 /*=============== CONTACT ===============*/
