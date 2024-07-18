@@ -447,6 +447,10 @@ img {
   cursor: pointer;
 }
 
+.popular__card:hover .popular__img {
+  transform: translateY(-0.5rem);
+}
+
 /*=============== DELIVERY ===============*/
 
 /*=============== CONTACT ===============*/
