@@ -146,7 +146,7 @@ img {
   color: var(--title-color);
 }
 
-.nav__logo {
+.nav__logo img {
   width: 20px;
 }
 
@@ -162,7 +162,9 @@ img {
   font-size: 1.5rem;
   color: var(--title-color);
   cursor: pointer;
-} /* Navigation for mobile devices */
+}
+
+/* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
   .nav__menu {
     position: fixed;
@@ -205,6 +207,9 @@ img {
 }
 
 .nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
 }
 
 /* Show menu */
